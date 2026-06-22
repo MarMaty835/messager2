@@ -6,7 +6,7 @@ const WebSocket = require("ws");
 const { Server } = require("socket.io");
 
 const app = express();
-const port = 8002;
+const port = 8030;
 
 app.use(logger("dev"));
 app.use(cookieParser());
